@@ -93,9 +93,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Mistral AI for the powerful language model
-- React and Material-UI for the amazing frontend framework
-- The open-source community for various tools and libraries
+ 
