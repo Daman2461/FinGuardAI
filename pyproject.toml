@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "finguardai"
+version = "0.1.0"
+description = "AI-powered invoice extraction and risk assessment using Mistral-7B"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "finguardai" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<3.11"
+streamlit = "^1.32.0"
+flask = "^3.0.2"
+flask-cors = "^4.0.0"
+mistralai = "^0.0.12"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.1"
+PyPDF2 = "^3.0.1"
+requests = "^2.31.0"
+Werkzeug = "^3.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
